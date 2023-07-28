@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# print "Best school"ten times with while loop
+counter=0
+while [ $counter -lt 10 ]
+do
+	echo "Best school";
+	((counter++))
+done
